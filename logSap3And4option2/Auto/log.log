@@ -1,0 +1,1010 @@
+2019-12-04 14:27:30,527 [restartedMain] INFO  com.AppMainAll 48 - Starting AppMainAll on DESKTOP-OIKGC21 with PID 213400 (E:\analyticservice\Sap3And4_web\Sap3And4\target\classes started by AAS in E:\analyticservice\Sap3And4_web\Sap3And4)
+2019-12-04 14:27:30,534 [restartedMain] INFO  com.AppMainAll 593 - No active profile set, falling back to default profiles: default
+2019-12-04 14:27:31,140 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.5.Final
+2019-12-04 14:27:31,155 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d57f865: startup date [Wed Dec 04 14:27:31 CST 2019]; root of context hierarchy
+2019-12-04 14:27:37,935 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:27:37,936 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.merck.dao]' package. Please check your configuration.
+2019-12-04 14:27:37,991 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:27:38,051 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:27:38,052 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'backOrderMapper' and 'com.sap.dao.BackOrderMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:27:38,052 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.*.dao]' package. Please check your configuration.
+2019-12-04 14:27:38,202 [restartedMain] INFO  o.s.b.f.s.DefaultListableBeanFactory 828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2019-12-04 14:27:44,820 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 89 - Tomcat initialized with port(s): 8080 (http)
+2019-12-04 14:27:44,833 [restartedMain] INFO  o.a.catalina.core.StandardService 183 - Starting service Tomcat
+2019-12-04 14:27:44,834 [restartedMain] INFO  o.a.catalina.core.StandardEngine 183 - Starting Servlet Engine: Apache Tomcat/7.0.69
+2019-12-04 14:27:45,358 [localhost-startStop-1] INFO  o.apache.catalina.startup.TldConfig 183 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-04 14:27:45,380 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring embedded WebApplicationContext
+2019-12-04 14:27:45,381 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 14226 ms
+2019-12-04 14:27:45,774 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-04 14:27:45,777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'metricsFilter' to: [/*]
+2019-12-04 14:27:45,777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-04 14:27:45,777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-04 14:27:45,777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-04 14:27:45,777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-04 14:27:45,778 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-12-04 14:27:45,778 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-12-04 14:28:01,311 [restartedMain] ERROR o.a.tomcat.jdbc.pool.ConnectionPool 185 - Unable to create initial connections of pool.
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 155.250.23.80 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:190)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:241)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2243)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:491)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1309)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:710)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:644)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:466)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:143)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4.CGLIB$jpaVendorAdapter$6(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4$$FastClassBySpringCGLIB$$52347640.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.AppMainAll.main(AppMainAll.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-12-04 14:28:01,325 [restartedMain] WARN  o.s.b.a.orm.jpa.DatabaseLookup 80 - Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 155.250.23.80 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4.CGLIB$jpaVendorAdapter$6(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4$$FastClassBySpringCGLIB$$52347640.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.AppMainAll.main(AppMainAll.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 155.250.23.80 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 66 common frames omitted
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 155.250.23.80 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:190)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:241)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2243)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:491)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1309)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:710)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:644)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:466)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:143)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 67 common frames omitted
+2019-12-04 14:28:16,352 [restartedMain] ERROR o.a.tomcat.jdbc.pool.ConnectionPool 185 - Unable to create initial connections of pool.
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 155.250.23.80 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:190)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:241)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2243)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:491)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1309)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:710)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:644)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:466)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:143)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:137)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getDefaultDdlAuto(JpaProperties.java:226)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getOrDeduceDdlAuto(JpaProperties.java:214)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getAdditionalProperties(JpaProperties.java:190)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.access$000(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.getHibernateProperties(JpaProperties.java:126)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.getVendorProperties(HibernateJpaAutoConfiguration.java:104)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:129)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4.CGLIB$entityManagerFactory$5(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4$$FastClassBySpringCGLIB$$52347640.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$43c4bdd4.entityManagerFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.AppMainAll.main(AppMainAll.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-12-04 14:28:19,962 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-04 14:28:19,980 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-04 14:28:20,089 [restartedMain] INFO  org.hibernate.Version 37 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-04 14:28:20,091 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2019-12-04 14:28:20,092 [restartedMain] INFO  org.hibernate.cfg.Environment 317 - HHH000021: Bytecode provider name : javassist
+2019-12-04 14:28:20,155 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-04 14:28:35,384 [restartedMain] ERROR o.a.tomcat.jdbc.pool.ConnectionPool 185 - Unable to create initial connections of pool.
+com.microsoft.sqlserver.jdbc.SQLServerException: 通过端口 1433 连接到主机 155.250.23.80 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:190)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:241)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2243)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:491)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1309)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:278)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:710)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:644)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:466)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:143)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:116)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:103)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.AppMainAll.main(AppMainAll.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-12-04 14:28:35,390 [restartedMain] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator 132 - HHH000342: Could not obtain connection to query metadata : 通过端口 1433 连接到主机 155.250.23.80 的 TCP/IP 连接失败。错误:“connect timed out。请验证连接属性。确保 SQL Server 的实例正在主机上运行，且在此端口接受 TCP/IP 连接，还要确保防火墙没有阻止到此端口的 TCP 连接。”。
+2019-12-04 14:28:35,394 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2019-12-04 14:28:35,401 [restartedMain] INFO  o.a.catalina.core.StandardService 183 - Stopping service Tomcat
+2019-12-04 14:28:35,438 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer 101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-12-04 14:28:35,447 [restartedMain] ERROR o.s.boot.SpringApplication 771 - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.AppMainAll.main(AppMainAll.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 21 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
+	... 37 common frames omitted
+2019-12-04 14:30:11,545 [restartedMain] INFO  com.AppMainAll 48 - Starting AppMainAll on DESKTOP-OIKGC21 with PID 212452 (E:\analyticservice\Sap3And4_web\Sap3And4\target\classes started by AAS in E:\analyticservice\Sap3And4_web\Sap3And4)
+2019-12-04 14:30:11,572 [restartedMain] INFO  com.AppMainAll 593 - No active profile set, falling back to default profiles: default
+2019-12-04 14:30:12,440 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@725fbeed: startup date [Wed Dec 04 14:30:12 CST 2019]; root of context hierarchy
+2019-12-04 14:30:12,440 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.5.Final
+2019-12-04 14:30:18,818 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:30:18,819 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.merck.dao]' package. Please check your configuration.
+2019-12-04 14:30:18,926 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:30:18,997 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:30:18,998 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'backOrderMapper' and 'com.sap.dao.BackOrderMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:30:18,998 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.*.dao]' package. Please check your configuration.
+2019-12-04 14:30:19,173 [restartedMain] INFO  o.s.b.f.s.DefaultListableBeanFactory 828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2019-12-04 14:30:25,959 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 89 - Tomcat initialized with port(s): 8088 (http)
+2019-12-04 14:30:25,968 [restartedMain] INFO  o.a.catalina.core.StandardService 183 - Starting service Tomcat
+2019-12-04 14:30:25,970 [restartedMain] INFO  o.a.catalina.core.StandardEngine 183 - Starting Servlet Engine: Apache Tomcat/7.0.69
+2019-12-04 14:30:26,444 [localhost-startStop-1] INFO  o.apache.catalina.startup.TldConfig 183 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-04 14:30:26,456 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring embedded WebApplicationContext
+2019-12-04 14:30:26,456 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 14016 ms
+2019-12-04 14:30:26,985 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-04 14:30:26,988 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'metricsFilter' to: [/*]
+2019-12-04 14:30:26,988 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-04 14:30:26,989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-04 14:30:26,989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-04 14:30:26,989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-04 14:30:26,989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-12-04 14:30:26,989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-12-04 14:30:33,145 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-04 14:30:33,176 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-04 14:30:33,308 [restartedMain] INFO  org.hibernate.Version 37 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-04 14:30:33,310 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2019-12-04 14:30:33,311 [restartedMain] INFO  org.hibernate.cfg.Environment 317 - HHH000021: Bytecode provider name : javassist
+2019-12-04 14:30:33,382 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-04 14:30:33,676 [restartedMain] INFO  org.hibernate.dialect.Dialect 156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2019-12-04 14:30:34,056 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-04 14:30:35,501 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@725fbeed: startup date [Wed Dec 04 14:30:12 CST 2019]; root of context hierarchy
+2019-12-04 14:30:35,655 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/index]}" onto public java.lang.String com.controller.RunController.index()
+2019-12-04 14:30:35,660 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/run]}" onto public com.model.Result com.controller.RunController.click(javax.servlet.http.HttpServletRequest)
+2019-12-04 14:30:35,664 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-04 14:30:35,665 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-04 14:30:35,785 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:30:35,786 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:30:35,852 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:30:37,172 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-12-04 14:30:37,173 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,174 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,175 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-12-04 14:30:37,176 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-12-04 14:30:37,177 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,179 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-12-04 14:30:37,180 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,184 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-12-04 14:30:37,184 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-12-04 14:30:37,185 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,186 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,186 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,188 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,188 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,190 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-12-04 14:30:37,190 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:30:37,590 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2019-12-04 14:30:37,826 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 14:30:37,833 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 14:30:37,840 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor 343 - Starting beans in phase 0
+2019-12-04 14:30:37,843 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-12-04 14:30:37,869 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-12-04 14:30:37,889 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-12-04 14:30:37,897 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-12-04 14:30:37,904 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-12-04 14:30:37,912 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-12-04 14:30:37,921 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-12-04 14:30:37,934 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-12-04 14:30:37,942 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-12-04 14:30:37,946 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-12-04 14:30:37,951 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-12-04 14:30:37,956 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-12-04 14:30:37,992 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 14:30:38,004 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 14:30:38,053 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 183 - Using a shared selector for servlet write/read
+2019-12-04 14:30:38,133 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 201 - Tomcat started on port(s): 8088 (http)
+2019-12-04 14:30:38,145 [restartedMain] INFO  com.AppMainAll 57 - Started AppMainAll in 27.216 seconds (JVM running for 29.41)
+2019-12-04 14:30:38,146 [restartedMain] INFO  com.AppMainAll 35 - springBoot容器已经启动
+2019-12-04 14:31:14,666 [http-nio-0.0.0.0-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-04 14:31:14,666 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-04 14:31:14,699 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 508 - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2019-12-04 14:31:14,865 [http-nio-0.0.0.0-8088-exec-1] INFO  com.AppMainAll 42 - 跳转到网页端
+2019-12-04 14:31:14,883 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine 825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-12-04 14:31:14,955 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.t.AbstractTemplateResolver 99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2019-12-04 14:31:14,956 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.t.AbstractTemplateResolver 110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2019-12-04 14:31:14,956 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.m.AbstractMessageResolver 72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2019-12-04 14:31:14,956 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.m.AbstractMessageResolver 78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2019-12-04 14:31:14,960 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG 123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2019-12-04 14:31:14,960 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine 838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-12-04 14:31:20,371 [http-nio-0.0.0.0-8088-exec-4] INFO  com.AppMainAll 106 - 页面触发执行任务开始：2019-12-04 14:31:20
+2019-12-04 14:31:20,372 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 49 - SapJobAllJob 开始执行任务：2019-12-04 14:31:20
+2019-12-04 14:31:20,374 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 54 - Sap4.3开始执行2019-12-04 14:31:20
+2019-12-04 14:31:20,374 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 103 - Sap4.3没有发现Back_Order.txt文件
+2019-12-04 14:31:20,374 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 58 - Sap4.3执行结束2019-12-04 14:31:20
+2019-12-04 14:31:20,375 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 367 - Sap4.4已经开始执行任务：开始时间：2019-12-04 14:31:20
+2019-12-04 14:31:20,377 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 411 - Sap4.4没有发现Back_Order.txt文件
+2019-12-04 14:31:20,377 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 412 - Sap4.4执行任务结束：结束时间：2019-12-04 14:31:20
+2019-12-04 14:31:20,378 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 69 - SapJobAllJob 执行任务结束：2019-12-04 14:31:20
+2019-12-04 14:31:20,378 [http-nio-0.0.0.0-8088-exec-4] INFO  com.AppMainAll 117 - 页面触发执行任务结束：2019-12-04 14:31:20
+2019-12-04 14:32:23,634 [http-nio-0.0.0.0-8088-exec-7] INFO  com.AppMainAll 106 - 页面触发执行任务开始：2019-12-04 14:32:23
+2019-12-04 14:32:23,634 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 49 - SapJobAllJob 开始执行任务：2019-12-04 14:32:23
+2019-12-04 14:32:23,635 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 54 - Sap4.3开始执行2019-12-04 14:32:23
+2019-12-04 14:33:28,867 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 250 - Sap4.3开始导出：无放单意见.xlsx、无欠款卡单.xlsx ，时间：2019-12-04 14:33:28
+2019-12-04 14:33:31,202 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 253 - Sap4.3导出结束：无放单意见.xlsx、无欠款卡单.xlsx ，时间：2019-12-04 14:33:31
+2019-12-04 14:33:31,203 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 258 - Sap4.3开始导出：block order1204P.xlsx ，时间：2019-12-04 14:33:31
+2019-12-04 14:33:34,409 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 262 - Sap4.3导出结束：block order1204P.xlsx ，时间：2019-12-04 14:33:34
+2019-12-04 14:33:34,410 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 268 - Sap4.3开始导出：Release order1204P.xlsx ，时间：2019-12-04 14:33:34
+2019-12-04 14:33:36,302 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 272 - Sap4.3导出结束：Release order1204P.xlsx ，时间：2019-12-04 14:33:36
+2019-12-04 14:33:36,375 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 325 - Sap4.3开始导出：order release application1204P.xlsx ，时间：2019-12-04 14:33:36
+2019-12-04 14:33:40,902 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 329 - Sap4.3导出结束：order release application1204P.xlsx ，时间：2019-12-04 14:33:40
+2019-12-04 14:33:40,916 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 342 - Sap4.3 备份back_order.txt 到E:\4.3_4.4_temp\backup43\Back_Order20191204143340904.txt成功
+2019-12-04 14:33:40,919 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 347 - Sap4.3 备份credit_limit.txt 到E:\4.3_4.4_temp\backup43\Credit_Limit20191204143340904.txt成功
+2019-12-04 14:33:40,932 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 355 - Sap4.3 备份放单建议.xlsx到E:\4.3_4.4_temp\backup43\放单建议20191204143340904.xlsx 成功！ 
+2019-12-04 14:33:40,933 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 58 - Sap4.3执行结束2019-12-04 14:33:40
+2019-12-04 14:33:40,933 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 367 - Sap4.4已经开始执行任务：开始时间：2019-12-04 14:33:40
+2019-12-04 14:33:45,509 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 534 - Sap4.4 备份blank.xlsx到E:\4.3_4.4_temp\backup44\blank20191204143345506.xlsx 成功！ 
+2019-12-04 14:33:45,511 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 543 - Sap4.4备份back_order.txt到E:\4.3_4.4_temp\backup44\Back_Order20191204143345506.txt 成功！ 
+2019-12-04 14:33:45,512 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 550 - Sap4.4备份mapping.xlsx到E:\4.3_4.4_temp\backup44\mapping20191204143345506.xlsx 成功！ 
+2019-12-04 14:33:45,512 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 552 - Sap4.4执行任务结束：结束时间：2019-12-04 14:33:45
+2019-12-04 14:33:45,513 [http-nio-0.0.0.0-8088-exec-7] INFO  com.job.SapJobAllWeb 69 - SapJobAllJob 执行任务结束：2019-12-04 14:33:45
+2019-12-04 14:33:45,513 [http-nio-0.0.0.0-8088-exec-7] INFO  com.AppMainAll 117 - 页面触发执行任务结束：2019-12-04 14:33:45
+2019-12-04 14:35:18,988 [restartedMain] INFO  com.AppMainAll 48 - Starting AppMainAll on DESKTOP-OIKGC21 with PID 210532 (E:\analyticservice\Sap3And4_web\Sap3And4\target\classes started by AAS in E:\analyticservice\Sap3And4_web\Sap3And4)
+2019-12-04 14:35:18,990 [restartedMain] INFO  com.AppMainAll 593 - No active profile set, falling back to default profiles: default
+2019-12-04 14:35:19,441 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66209597: startup date [Wed Dec 04 14:35:19 CST 2019]; root of context hierarchy
+2019-12-04 14:35:19,473 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.5.Final
+2019-12-04 14:35:26,827 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:35:26,827 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.merck.dao]' package. Please check your configuration.
+2019-12-04 14:35:26,941 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:35:27,007 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:35:27,007 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'backOrderMapper' and 'com.sap.dao.BackOrderMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:35:27,007 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.*.dao]' package. Please check your configuration.
+2019-12-04 14:35:27,184 [restartedMain] INFO  o.s.b.f.s.DefaultListableBeanFactory 828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2019-12-04 14:35:33,614 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 89 - Tomcat initialized with port(s): 8088 (http)
+2019-12-04 14:35:33,624 [restartedMain] INFO  o.a.catalina.core.StandardService 183 - Starting service Tomcat
+2019-12-04 14:35:33,625 [restartedMain] INFO  o.a.catalina.core.StandardEngine 183 - Starting Servlet Engine: Apache Tomcat/7.0.69
+2019-12-04 14:35:34,061 [localhost-startStop-1] INFO  o.apache.catalina.startup.TldConfig 183 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-04 14:35:34,075 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring embedded WebApplicationContext
+2019-12-04 14:35:34,075 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 14635 ms
+2019-12-04 14:35:34,471 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-04 14:35:34,473 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'metricsFilter' to: [/*]
+2019-12-04 14:35:34,474 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-04 14:35:34,474 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-04 14:35:34,474 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-04 14:35:34,474 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-04 14:35:34,475 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-12-04 14:35:34,475 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-12-04 14:35:40,495 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-04 14:35:40,520 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-04 14:35:40,636 [restartedMain] INFO  org.hibernate.Version 37 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-04 14:35:40,638 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2019-12-04 14:35:40,640 [restartedMain] INFO  org.hibernate.cfg.Environment 317 - HHH000021: Bytecode provider name : javassist
+2019-12-04 14:35:40,707 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-04 14:35:41,026 [restartedMain] INFO  org.hibernate.dialect.Dialect 156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2019-12-04 14:35:41,415 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-04 14:35:42,944 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66209597: startup date [Wed Dec 04 14:35:19 CST 2019]; root of context hierarchy
+2019-12-04 14:35:43,054 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/index]}" onto public java.lang.String com.controller.RunController.index()
+2019-12-04 14:35:43,057 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/run]}" onto public com.model.Result com.controller.RunController.click(javax.servlet.http.HttpServletRequest)
+2019-12-04 14:35:43,061 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-04 14:35:43,062 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-04 14:35:43,132 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:35:43,132 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:35:43,253 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:35:44,815 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,816 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-12-04 14:35:44,818 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-12-04 14:35:44,820 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-12-04 14:35:44,821 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,822 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,825 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-12-04 14:35:44,826 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-12-04 14:35:44,826 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,829 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,830 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,832 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-12-04 14:35:44,832 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,833 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,834 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:44,835 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-12-04 14:35:44,836 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:35:45,208 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2019-12-04 14:35:45,444 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 14:35:45,451 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 14:35:45,458 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor 343 - Starting beans in phase 0
+2019-12-04 14:35:45,461 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-12-04 14:35:45,499 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-12-04 14:35:45,518 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-12-04 14:35:45,524 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-12-04 14:35:45,528 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-12-04 14:35:45,534 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-12-04 14:35:45,544 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-12-04 14:35:45,557 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-12-04 14:35:45,567 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-12-04 14:35:45,575 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-12-04 14:35:45,579 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-12-04 14:35:45,585 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-12-04 14:35:45,623 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 14:35:45,632 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 14:35:45,678 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 183 - Using a shared selector for servlet write/read
+2019-12-04 14:35:45,758 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 201 - Tomcat started on port(s): 8088 (http)
+2019-12-04 14:35:45,767 [restartedMain] INFO  com.AppMainAll 57 - Started AppMainAll in 27.354 seconds (JVM running for 29.472)
+2019-12-04 14:35:45,767 [restartedMain] INFO  com.AppMainAll 35 - springBoot容器已经启动
+2019-12-04 14:36:04,816 [http-nio-0.0.0.0-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-04 14:36:04,817 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-04 14:36:04,842 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 508 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2019-12-04 14:36:04,987 [http-nio-0.0.0.0-8088-exec-1] INFO  com.AppMainAll 42 - 跳转到网页端
+2019-12-04 14:36:05,002 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine 825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-12-04 14:36:05,051 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.t.AbstractTemplateResolver 99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2019-12-04 14:36:05,051 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.t.AbstractTemplateResolver 110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2019-12-04 14:36:05,052 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.m.AbstractMessageResolver 72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2019-12-04 14:36:05,052 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.m.AbstractMessageResolver 78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2019-12-04 14:36:05,055 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG 123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2019-12-04 14:36:05,056 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine 838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-12-04 14:36:07,849 [http-nio-0.0.0.0-8088-exec-4] INFO  com.AppMainAll 106 - 页面触发执行任务开始：2019-12-04 14:36:07
+2019-12-04 14:36:07,850 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 49 - SapJobAllJob 开始执行任务：2019-12-04 14:36:07
+2019-12-04 14:36:07,851 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 54 - Sap4.3开始执行2019-12-04 14:36:07
+2019-12-04 14:36:07,851 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 103 - Sap4.3没有发现Back_Order.txt文件
+2019-12-04 14:36:07,851 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 58 - Sap4.3执行结束2019-12-04 14:36:07
+2019-12-04 14:36:07,851 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 367 - Sap4.4已经开始执行任务：开始时间：2019-12-04 14:36:07
+2019-12-04 14:36:13,927 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 534 - Sap4.4 备份blank.xlsx到E:\4.3_4.4_temp\backup44\blank20191204143613925.xlsx 成功！ 
+2019-12-04 14:36:13,930 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 543 - Sap4.4备份back_order.txt到E:\4.3_4.4_temp\backup44\Back_Order20191204143613925.txt 成功！ 
+2019-12-04 14:36:13,931 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 550 - Sap4.4备份mapping.xlsx到E:\4.3_4.4_temp\backup44\mapping20191204143613925.xlsx 成功！ 
+2019-12-04 14:36:13,932 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 552 - Sap4.4执行任务结束：结束时间：2019-12-04 14:36:13
+2019-12-04 14:36:13,933 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 69 - SapJobAllJob 执行任务结束：2019-12-04 14:36:13
+2019-12-04 14:36:13,933 [http-nio-0.0.0.0-8088-exec-4] INFO  com.AppMainAll 117 - 页面触发执行任务结束：2019-12-04 14:36:13
+2019-12-04 14:37:18,981 [restartedMain] INFO  com.AppMainAll 48 - Starting AppMainAll on DESKTOP-OIKGC21 with PID 212708 (E:\analyticservice\Sap3And4_web\Sap3And4\target\classes started by AAS in E:\analyticservice\Sap3And4_web\Sap3And4)
+2019-12-04 14:37:18,983 [restartedMain] INFO  com.AppMainAll 593 - No active profile set, falling back to default profiles: default
+2019-12-04 14:37:19,620 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.5.Final
+2019-12-04 14:37:19,659 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@afdd280: startup date [Wed Dec 04 14:37:19 CST 2019]; root of context hierarchy
+2019-12-04 14:37:27,439 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:37:27,439 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.merck.dao]' package. Please check your configuration.
+2019-12-04 14:37:27,507 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:37:27,576 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:37:27,577 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'backOrderMapper' and 'com.sap.dao.BackOrderMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 14:37:27,577 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.*.dao]' package. Please check your configuration.
+2019-12-04 14:37:27,715 [restartedMain] INFO  o.s.b.f.s.DefaultListableBeanFactory 828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2019-12-04 14:37:35,361 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 89 - Tomcat initialized with port(s): 8088 (http)
+2019-12-04 14:37:35,376 [restartedMain] INFO  o.a.catalina.core.StandardService 183 - Starting service Tomcat
+2019-12-04 14:37:35,377 [restartedMain] INFO  o.a.catalina.core.StandardEngine 183 - Starting Servlet Engine: Apache Tomcat/7.0.69
+2019-12-04 14:37:35,819 [localhost-startStop-1] INFO  o.apache.catalina.startup.TldConfig 183 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-04 14:37:35,832 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring embedded WebApplicationContext
+2019-12-04 14:37:35,832 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 16173 ms
+2019-12-04 14:37:36,324 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-04 14:37:36,328 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'metricsFilter' to: [/*]
+2019-12-04 14:37:36,329 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-04 14:37:36,329 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-04 14:37:36,330 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-04 14:37:36,330 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-04 14:37:36,330 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-12-04 14:37:36,331 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-12-04 14:37:42,253 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-04 14:37:42,270 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-04 14:37:42,357 [restartedMain] INFO  org.hibernate.Version 37 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-04 14:37:42,359 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2019-12-04 14:37:42,361 [restartedMain] INFO  org.hibernate.cfg.Environment 317 - HHH000021: Bytecode provider name : javassist
+2019-12-04 14:37:42,420 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-04 14:37:42,646 [restartedMain] INFO  org.hibernate.dialect.Dialect 156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2019-12-04 14:37:42,979 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-04 14:37:44,278 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@afdd280: startup date [Wed Dec 04 14:37:19 CST 2019]; root of context hierarchy
+2019-12-04 14:37:44,378 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/index]}" onto public java.lang.String com.controller.RunController.index()
+2019-12-04 14:37:44,381 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/run]}" onto public com.model.Result com.controller.RunController.click(javax.servlet.http.HttpServletRequest)
+2019-12-04 14:37:44,385 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-04 14:37:44,386 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-04 14:37:44,500 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:37:44,500 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:37:44,602 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 14:37:46,390 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-12-04 14:37:46,392 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,397 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-12-04 14:37:46,398 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-12-04 14:37:46,398 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,399 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-12-04 14:37:46,400 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,403 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-12-04 14:37:46,404 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-12-04 14:37:46,404 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,406 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,408 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,408 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,409 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,410 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,412 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-12-04 14:37:46,413 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 14:37:46,962 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2019-12-04 14:37:47,290 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 14:37:47,305 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 14:37:47,315 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor 343 - Starting beans in phase 0
+2019-12-04 14:37:47,319 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-12-04 14:37:47,350 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-12-04 14:37:47,372 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-12-04 14:37:47,380 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-12-04 14:37:47,386 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-12-04 14:37:47,397 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-12-04 14:37:47,407 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-12-04 14:37:47,421 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-12-04 14:37:47,430 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-12-04 14:37:47,439 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-12-04 14:37:47,444 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-12-04 14:37:47,450 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-12-04 14:37:47,486 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 14:37:47,500 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 14:37:47,551 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 183 - Using a shared selector for servlet write/read
+2019-12-04 14:37:47,630 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 201 - Tomcat started on port(s): 8088 (http)
+2019-12-04 14:37:47,637 [restartedMain] INFO  com.AppMainAll 57 - Started AppMainAll in 29.359 seconds (JVM running for 31.524)
+2019-12-04 14:37:47,638 [restartedMain] INFO  com.AppMainAll 35 - springBoot容器已经启动
+2019-12-04 14:37:51,357 [http-nio-0.0.0.0-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-04 14:37:51,357 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-04 14:37:51,388 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 508 - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-12-04 14:37:51,527 [http-nio-0.0.0.0-8088-exec-1] INFO  com.AppMainAll 42 - 跳转到网页端
+2019-12-04 14:37:51,551 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine 825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-12-04 14:37:51,624 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.t.AbstractTemplateResolver 99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2019-12-04 14:37:51,625 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.t.AbstractTemplateResolver 110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2019-12-04 14:37:51,625 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.m.AbstractMessageResolver 72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2019-12-04 14:37:51,625 [http-nio-0.0.0.0-8088-exec-1] INFO  o.t.m.AbstractMessageResolver 78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2019-12-04 14:37:51,633 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG 123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2019-12-04 14:37:51,633 [http-nio-0.0.0.0-8088-exec-1] INFO  org.thymeleaf.TemplateEngine 838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-12-04 14:37:53,990 [http-nio-0.0.0.0-8088-exec-4] INFO  com.AppMainAll 106 - 页面触发执行任务开始：2019-12-04 14:37:53
+2019-12-04 14:37:53,991 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 49 - SapJobAllJob 开始执行任务：2019-12-04 14:37:53
+2019-12-04 14:37:53,991 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 54 - Sap4.3开始执行2019-12-04 14:37:53
+2019-12-04 14:37:53,992 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 103 - Sap4.3没有发现Back_Order.txt文件
+2019-12-04 14:37:53,992 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 58 - Sap4.3执行结束2019-12-04 14:37:53
+2019-12-04 14:37:53,992 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 367 - Sap4.4已经开始执行任务：开始时间：2019-12-04 14:37:53
+2019-12-04 14:37:59,272 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 534 - Sap4.4 备份blank.xlsx到E:\4.3_4.4_temp\backup44\blank20191204143759269.xlsx 成功！ 
+2019-12-04 14:37:59,273 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 543 - Sap4.4备份back_order.txt到E:\4.3_4.4_temp\backup44\Back_Order20191204143759269.txt 成功！ 
+2019-12-04 14:37:59,275 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 550 - Sap4.4备份mapping.xlsx到E:\4.3_4.4_temp\backup44\mapping20191204143759269.xlsx 成功！ 
+2019-12-04 14:37:59,276 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 552 - Sap4.4执行任务结束：结束时间：2019-12-04 14:37:59
+2019-12-04 14:37:59,277 [http-nio-0.0.0.0-8088-exec-4] INFO  com.job.SapJobAllWeb 69 - SapJobAllJob 执行任务结束：2019-12-04 14:37:59
+2019-12-04 14:37:59,277 [http-nio-0.0.0.0-8088-exec-4] INFO  com.AppMainAll 117 - 页面触发执行任务结束：2019-12-04 14:37:59
+2019-12-04 15:01:21,948 [restartedMain] INFO  com.AppMainAll 48 - Starting AppMainAll on DESKTOP-OIKGC21 with PID 216844 (E:\analyticservice\Sap3And4_web_out\Sap3And4\target\classes started by AAS in E:\analyticservice\Sap3And4_web_out\Sap3And4)
+2019-12-04 15:01:21,951 [restartedMain] INFO  com.AppMainAll 593 - No active profile set, falling back to default profiles: default
+2019-12-04 15:01:22,620 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78f02d62: startup date [Wed Dec 04 15:01:22 CST 2019]; root of context hierarchy
+2019-12-04 15:01:23,123 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.5.Final
+2019-12-04 15:01:36,620 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:01:36,621 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.merck.dao]' package. Please check your configuration.
+2019-12-04 15:01:36,798 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:01:36,967 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:01:36,967 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'backOrderMapper' and 'com.sap.dao.BackOrderMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:01:36,968 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.*.dao]' package. Please check your configuration.
+2019-12-04 15:01:37,220 [restartedMain] INFO  o.s.b.f.s.DefaultListableBeanFactory 828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2019-12-04 15:01:58,899 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 89 - Tomcat initialized with port(s): 8088 (http)
+2019-12-04 15:01:58,913 [restartedMain] INFO  o.a.catalina.core.StandardService 183 - Starting service Tomcat
+2019-12-04 15:01:58,915 [restartedMain] INFO  o.a.catalina.core.StandardEngine 183 - Starting Servlet Engine: Apache Tomcat/7.0.69
+2019-12-04 15:01:59,655 [localhost-startStop-1] INFO  o.apache.catalina.startup.TldConfig 183 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-04 15:01:59,682 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring embedded WebApplicationContext
+2019-12-04 15:01:59,683 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 37063 ms
+2019-12-04 15:02:00,287 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-04 15:02:00,292 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'metricsFilter' to: [/*]
+2019-12-04 15:02:00,292 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-04 15:02:00,293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-04 15:02:00,293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-04 15:02:00,293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-04 15:02:00,293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-12-04 15:02:00,294 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-12-04 15:02:07,335 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-04 15:02:07,356 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-04 15:02:07,456 [restartedMain] INFO  org.hibernate.Version 37 - HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-04 15:02:07,458 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2019-12-04 15:02:07,459 [restartedMain] INFO  org.hibernate.cfg.Environment 317 - HHH000021: Bytecode provider name : javassist
+2019-12-04 15:02:07,531 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-04 15:02:07,777 [restartedMain] INFO  org.hibernate.dialect.Dialect 156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2019-12-04 15:02:08,219 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-04 15:02:09,484 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78f02d62: startup date [Wed Dec 04 15:01:22 CST 2019]; root of context hierarchy
+2019-12-04 15:02:09,586 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/index]}" onto public java.lang.String com.controller.RunController.index()
+2019-12-04 15:02:09,589 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/run]}" onto public com.model.Result com.controller.RunController.click(javax.servlet.http.HttpServletRequest)
+2019-12-04 15:02:09,593 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-04 15:02:09,594 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-04 15:02:09,663 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 15:02:09,664 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 15:02:09,748 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 15:02:11,058 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-12-04 15:02:11,059 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,060 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-12-04 15:02:11,064 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-12-04 15:02:11,065 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-12-04 15:02:11,066 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,067 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,069 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,071 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,074 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,076 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-12-04 15:02:11,077 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,080 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,081 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-12-04 15:02:11,083 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,086 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:02:11,087 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-12-04 15:02:11,455 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2019-12-04 15:02:11,688 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 15:02:11,695 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 15:02:11,701 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor 343 - Starting beans in phase 0
+2019-12-04 15:02:11,704 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-12-04 15:02:11,730 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-12-04 15:02:11,747 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-12-04 15:02:11,756 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-12-04 15:02:11,762 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-12-04 15:02:11,769 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-12-04 15:02:11,778 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-12-04 15:02:11,792 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-12-04 15:02:11,800 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-12-04 15:02:11,805 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-12-04 15:02:11,811 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-12-04 15:02:11,817 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-12-04 15:02:11,860 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 15:02:11,870 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2019-12-04 15:02:11,923 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 183 - Using a shared selector for servlet write/read
+2019-12-04 15:02:12,001 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 201 - Tomcat started on port(s): 8088 (http)
+2019-12-04 15:02:12,012 [restartedMain] INFO  com.AppMainAll 57 - Started AppMainAll in 51.435 seconds (JVM running for 58.077)
+2019-12-04 15:02:12,012 [restartedMain] INFO  com.AppMainAll 35 - springBoot容器已经启动
+2019-12-04 15:04:48,949 [http-nio-0.0.0.0-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-04 15:04:48,952 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-04 15:04:49,007 [http-nio-0.0.0.0-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet 508 - FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2019-12-04 15:04:51,520 [http-nio-0.0.0.0-8088-exec-2] INFO  com.AppMainAll 41 - 跳转到网页端
+2019-12-04 15:04:51,550 [http-nio-0.0.0.0-8088-exec-2] INFO  org.thymeleaf.TemplateEngine 825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-12-04 15:04:51,615 [http-nio-0.0.0.0-8088-exec-2] INFO  o.t.t.AbstractTemplateResolver 99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2019-12-04 15:04:51,616 [http-nio-0.0.0.0-8088-exec-2] INFO  o.t.t.AbstractTemplateResolver 110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2019-12-04 15:04:51,616 [http-nio-0.0.0.0-8088-exec-2] INFO  o.t.m.AbstractMessageResolver 72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2019-12-04 15:04:51,616 [http-nio-0.0.0.0-8088-exec-2] INFO  o.t.m.AbstractMessageResolver 78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2019-12-04 15:04:51,620 [http-nio-0.0.0.0-8088-exec-2] INFO  org.thymeleaf.TemplateEngine.CONFIG 123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2019-12-04 15:04:51,620 [http-nio-0.0.0.0-8088-exec-2] INFO  org.thymeleaf.TemplateEngine 838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-12-04 15:04:55,594 [http-nio-0.0.0.0-8088-exec-5] INFO  com.AppMainAll 101 - 页面触发执行任务开始：2019-12-04 15:04:55
+2019-12-04 15:04:55,596 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 49 - SapJobAllJob 开始执行任务：2019-12-04 15:04:55
+2019-12-04 15:04:55,598 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 54 - Sap4.3开始执行2019-12-04 15:04:55
+2019-12-04 15:04:55,599 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 103 - Sap4.3没有发现Back_Order.txt文件
+2019-12-04 15:04:55,599 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 58 - Sap4.3执行结束2019-12-04 15:04:55
+2019-12-04 15:04:55,600 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 367 - Sap4.4已经开始执行任务：开始时间：2019-12-04 15:04:55
+2019-12-04 15:04:55,601 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 411 - Sap4.4没有发现Back_Order.txt文件
+2019-12-04 15:04:55,601 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 412 - Sap4.4执行任务结束：结束时间：2019-12-04 15:04:55
+2019-12-04 15:04:55,601 [http-nio-0.0.0.0-8088-exec-5] INFO  com.job.SapJobAllWeb 69 - SapJobAllJob 执行任务结束：2019-12-04 15:04:55
+2019-12-04 15:04:55,601 [http-nio-0.0.0.0-8088-exec-5] INFO  com.AppMainAll 110 - 页面触发执行任务结束：2019-12-04 15:04:55
+2019-12-04 15:05:42,025 [http-nio-0.0.0.0-8088-exec-8] INFO  com.AppMainAll 41 - 跳转到网页端
+2019-12-04 15:05:45,433 [http-nio-0.0.0.0-8088-exec-1] INFO  com.AppMainAll 101 - 页面触发执行任务开始：2019-12-04 15:05:45
+2019-12-04 15:05:45,433 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 49 - SapJobAllJob 开始执行任务：2019-12-04 15:05:45
+2019-12-04 15:05:45,433 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 54 - Sap4.3开始执行2019-12-04 15:05:45
+2019-12-04 15:06:58,340 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 250 - Sap4.3开始导出：无放单意见.xlsx、无欠款卡单.xlsx ，时间：2019-12-04 15:06:58
+2019-12-04 15:07:00,611 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 253 - Sap4.3导出结束：无放单意见.xlsx、无欠款卡单.xlsx ，时间：2019-12-04 15:07:00
+2019-12-04 15:07:00,612 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 258 - Sap4.3开始导出：block order1204P.xlsx ，时间：2019-12-04 15:07:00
+2019-12-04 15:07:02,908 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 262 - Sap4.3导出结束：block order1204P.xlsx ，时间：2019-12-04 15:07:02
+2019-12-04 15:07:02,909 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 268 - Sap4.3开始导出：Release order1204P.xlsx ，时间：2019-12-04 15:07:02
+2019-12-04 15:07:05,110 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 272 - Sap4.3导出结束：Release order1204P.xlsx ，时间：2019-12-04 15:07:05
+2019-12-04 15:07:05,197 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 325 - Sap4.3开始导出：order release application1204P.xlsx ，时间：2019-12-04 15:07:05
+2019-12-04 15:07:09,410 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 329 - Sap4.3导出结束：order release application1204P.xlsx ，时间：2019-12-04 15:07:09
+2019-12-04 15:07:09,413 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 342 - Sap4.3 备份back_order.txt 到E:\4.3_4.4_temp\backup43\Back_Order20191204150709410.txt成功
+2019-12-04 15:07:09,415 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 347 - Sap4.3 备份credit_limit.txt 到E:\4.3_4.4_temp\backup43\Credit_Limit20191204150709410.txt成功
+2019-12-04 15:07:09,424 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 355 - Sap4.3 备份放单建议.xlsx到E:\4.3_4.4_temp\backup43\放单建议20191204150709410.xlsx 成功！ 
+2019-12-04 15:07:09,425 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 58 - Sap4.3执行结束2019-12-04 15:07:09
+2019-12-04 15:07:09,425 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 367 - Sap4.4已经开始执行任务：开始时间：2019-12-04 15:07:09
+2019-12-04 15:07:13,398 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 534 - Sap4.4 备份blank.xlsx到E:\4.3_4.4_temp\backup44\blank20191204150713397.xlsx 成功！ 
+2019-12-04 15:07:13,402 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 543 - Sap4.4备份back_order.txt到E:\4.3_4.4_temp\backup44\Back_Order20191204150713397.txt 成功！ 
+2019-12-04 15:07:13,406 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 550 - Sap4.4备份mapping.xlsx到E:\4.3_4.4_temp\backup44\mapping20191204150713397.xlsx 成功！ 
+2019-12-04 15:07:13,419 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 552 - Sap4.4执行任务结束：结束时间：2019-12-04 15:07:13
+2019-12-04 15:07:13,420 [http-nio-0.0.0.0-8088-exec-1] INFO  com.job.SapJobAllWeb 69 - SapJobAllJob 执行任务结束：2019-12-04 15:07:13
+2019-12-04 15:07:13,421 [http-nio-0.0.0.0-8088-exec-1] INFO  com.AppMainAll 110 - 页面触发执行任务结束：2019-12-04 15:07:13
+2019-12-04 15:08:56,753 [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78f02d62: startup date [Wed Dec 04 15:01:22 CST 2019]; root of context hierarchy
+2019-12-04 15:08:56,815 [Thread-10] INFO  o.s.c.s.DefaultLifecycleProcessor 358 - Stopping beans in phase 0
+2019-12-04 15:08:56,822 [Thread-10] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 449 - Unregistering JMX-exposed beans on shutdown
+2019-12-04 15:08:56,823 [Thread-10] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 241 - Unregistering JMX-exposed beans
+2019-12-04 15:08:56,823 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter 449 - Unregistering JMX-exposed beans on shutdown
+2019-12-04 15:08:56,827 [Thread-10] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-04 15:08:58,196 [restartedMain] INFO  com.AppMainAll 48 - Starting AppMainAll on DESKTOP-OIKGC21 with PID 216844 (E:\analyticservice\Sap3And4_web_out\Sap3And4\target\classes started by AAS in E:\analyticservice\Sap3And4_web_out\Sap3And4)
+2019-12-04 15:08:58,196 [restartedMain] INFO  com.AppMainAll 593 - No active profile set, falling back to default profiles: default
+2019-12-04 15:08:58,206 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3aac1443: startup date [Wed Dec 04 15:08:58 CST 2019]; root of context hierarchy
+2019-12-04 15:09:08,239 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:09:08,239 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.merck.dao]' package. Please check your configuration.
+2019-12-04 15:09:08,273 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:09:08,304 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'insertMapper' and 'com.merck.dao.InsertMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:09:08,305 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 240 - Skipping MapperFactoryBean with name 'backOrderMapper' and 'com.sap.dao.BackOrderMapper' mapperInterface. Bean already defined with the same name!
+2019-12-04 15:09:08,305 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 167 - No MyBatis mapper was found in '[com.*.dao]' package. Please check your configuration.
+2019-12-04 15:09:08,359 [restartedMain] INFO  o.s.b.f.s.DefaultListableBeanFactory 828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2019-12-04 15:09:13,433 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 89 - Tomcat initialized with port(s): 9099 (http)
+2019-12-04 15:09:13,435 [restartedMain] INFO  o.a.catalina.core.StandardService 183 - Starting service Tomcat
+2019-12-04 15:09:13,435 [restartedMain] INFO  o.a.catalina.core.StandardEngine 183 - Starting Servlet Engine: Apache Tomcat/7.0.69
+2019-12-04 15:09:13,606 [localhost-startStop-1] INFO  o.apache.catalina.startup.TldConfig 183 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-04 15:09:13,610 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 183 - Initializing Spring embedded WebApplicationContext
+2019-12-04 15:09:13,610 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 15404 ms
+2019-12-04 15:09:13,734 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-04 15:09:13,735 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'metricsFilter' to: [/*]
+2019-12-04 15:09:13,735 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-04 15:09:13,735 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-04 15:09:13,736 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-04 15:09:13,736 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-04 15:09:13,736 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2019-12-04 15:09:13,736 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-12-04 15:09:19,840 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-04 15:09:19,840 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-04 15:09:19,866 [restartedMain] INFO  org.hibernate.dialect.Dialect 156 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2019-12-04 15:09:19,967 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-04 15:09:20,349 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3aac1443: startup date [Wed Dec 04 15:08:58 CST 2019]; root of context hierarchy
+2019-12-04 15:09:20,365 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/index]}" onto public java.lang.String com.controller.RunController.index()
+2019-12-04 15:09:20,366 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/run]}" onto public com.model.Result com.controller.RunController.click(javax.servlet.http.HttpServletRequest)
+2019-12-04 15:09:20,369 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-04 15:09:20,370 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-04 15:09:20,417 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 15:09:20,417 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 15:09:20,444 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-04 15:09:20,813 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-12-04 15:09:20,814 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,820 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-12-04 15:09:20,822 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-12-04 15:09:20,823 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,826 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-12-04 15:09:20,829 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-12-04 15:09:20,830 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,831 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,842 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,846 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,851 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-12-04 15:09:20,855 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,856 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,859 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,861 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-12-04 15:09:20,864 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping 543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-12-04 15:09:20,999 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2019-12-04 15:09:21,200 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 15:09:21,208 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 431 - Registering beans for JMX exposure on startup
+2019-12-04 15:09:21,211 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor 343 - Starting beans in phase 0
+2019-12-04 15:09:21,213 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2019-12-04 15:09:21,221 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2019-12-04 15:09:21,252 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2019-12-04 15:09:21,261 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2019-12-04 15:09:21,275 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2019-12-04 15:09:21,281 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2019-12-04 15:09:21,288 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2019-12-04 15:09:21,357 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2019-12-04 15:09:21,363 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2019-12-04 15:09:21,375 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2019-12-04 15:09:21,380 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2019-12-04 15:09:21,387 [restartedMain] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter 678 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2019-12-04 15:09:21,402 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Initializing ProtocolHandler ["http-nio-0.0.0.0-9099"]
+2019-12-04 15:09:21,403 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 183 - Starting ProtocolHandler ["http-nio-0.0.0.0-9099"]
+2019-12-04 15:09:21,426 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 183 - Using a shared selector for servlet write/read
+2019-12-04 15:09:21,469 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 201 - Tomcat started on port(s): 9099 (http)
+2019-12-04 15:09:21,476 [restartedMain] INFO  com.AppMainAll 57 - Started AppMainAll in 23.438 seconds (JVM running for 487.541)
+2019-12-04 15:09:21,476 [restartedMain] INFO  com.AppMainAll 35 - springBoot容器已经启动

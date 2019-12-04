@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sap.dao.BackOrderMapper">
+	<resultMap id="BaseResultMap" type="com.sap.model.BackOrder">
+		<result column="DOCUMENT_STATUS" jdbcType="VARCHAR"
+			property="documentStatus" />
+		<result column="CREDIT_ANALYST" jdbcType="VARCHAR"
+			property="creditAnalyst" />
+		<result column="CREATED_ON" jdbcType="VARCHAR"
+			property="createdOn" />
+		<result column="CASE_ID" jdbcType="VARCHAR" property="caseId" />
+		<result column="DOCUMENT_NUMBER" jdbcType="VARCHAR"
+			property="documentNumber" />
+		<result column="PARTNER" jdbcType="VARCHAR" property="partner" />
+		<result column="DESCRIPTION" jdbcType="VARCHAR"
+			property="description" />
+		<result column="EXTERNAL_REFER" jdbcType="VARCHAR"
+			property="externalRefer" />
+		<result column="TOTAL_AMT" jdbcType="VARCHAR"
+			property="totalAmt" />
+		<result column="PAYT" jdbcType="VARCHAR" property="payt" />
+		<result column="RISK_CLASS" jdbcType="VARCHAR"
+			property="riskClass" />
+		<result column="CR_EXPOS" jdbcType="VARCHAR" property="crExpos" />
+		<result column="LIMIT" jdbcType="VARCHAR" property="limit" />
+		<result column="DAYS_030" jdbcType="VARCHAR" property="days030" />
+		<result column="DAYS_3160" jdbcType="VARCHAR"
+			property="days3160" />
+		<result column="DAYS_6190" jdbcType="VARCHAR"
+			property="days6190" />
+		<result column="DAYS_91" jdbcType="VARCHAR" property="days91" />
+		<result column="UTILIZTN" jdbcType="VARCHAR"
+			property="utiliztn" />
+		<result column="CHANGED_BY" jdbcType="VARCHAR"
+			property="changedBy" />
+		<result column="LAST_CHANGED_ON" jdbcType="VARCHAR"
+			property="lastChangedOn" />
+	</resultMap>
+	<insert id="insert" parameterType="com.sap.model.BackOrder">
+		insert into BACK_ORDER
+		(DOCUMENT_STATUS, CREDIT_ANALYST, CREATED_ON,
+		CASE_ID, DOCUMENT_NUMBER,
+		PARTNER,
+		DESCRIPTION, EXTERNAL_REFER, TOTAL_AMT,
+		PAYT, RISK_CLASS,
+		CR_EXPOS,
+		LIMIT, DAYS_030, DAYS_3160,
+		DAYS_6190, DAYS_91, UTILIZTN,
+		CHANGED_BY, LAST_CHANGED_ON)
+		values
+		(#{documentStatus,jdbcType=VARCHAR},
+		#{creditAnalyst,jdbcType=VARCHAR}, #{createdOn,jdbcType=VARCHAR},
+		#{caseId,jdbcType=VARCHAR}, #{documentNumber,jdbcType=VARCHAR},
+		#{partner,jdbcType=VARCHAR},
+		#{description,jdbcType=VARCHAR},
+		#{externalRefer,jdbcType=VARCHAR}, #{totalAmt,jdbcType=VARCHAR},
+		#{payt,jdbcType=VARCHAR}, #{riskClass,jdbcType=VARCHAR},
+		#{crExpos,jdbcType=VARCHAR},
+		#{limit,jdbcType=VARCHAR},
+		#{days030,jdbcType=VARCHAR}, #{days3160,jdbcType=VARCHAR},
+		#{days6190,jdbcType=VARCHAR}, #{days91,jdbcType=VARCHAR},
+		#{utiliztn,jdbcType=VARCHAR},
+		#{changedBy,jdbcType=VARCHAR},
+		#{lastChangedOn,jdbcType=VARCHAR})
+	</insert>
+	<insert id="insertSelective"
+		parameterType="com.sap.model.BackOrder">
+		insert into BACK_ORDER
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="documentStatus != null">
+				DOCUMENT_STATUS,
+			</if>
+			<if test="creditAnalyst != null">
+				CREDIT_ANALYST,
+			</if>
+			<if test="createdOn != null">
+				CREATED_ON,
+			</if>
+			<if test="caseId != null">
+				CASE_ID,
+			</if>
+			<if test="documentNumber != null">
+				DOCUMENT_NUMBER,
+			</if>
+			<if test="partner != null">
+				PARTNER,
+			</if>
+			<if test="description != null">
+				DESCRIPTION,
+			</if>
+			<if test="externalRefer != null">
+				EXTERNAL_REFER,
+			</if>
+			<if test="totalAmt != null">
+				TOTAL_AMT,
+			</if>
+			<if test="payt != null">
+				PAYT,
+			</if>
+			<if test="riskClass != null">
+				RISK_CLASS,
+			</if>
+			<if test="crExpos != null">
+				CR_EXPOS,
+			</if>
+			<if test="limit != null">
+				LIMIT,
+			</if>
+			<if test="days030 != null">
+				DAYS_030,
+			</if>
+			<if test="days3160 != null">
+				DAYS_3160,
+			</if>
+			<if test="days6190 != null">
+				DAYS_6190,
+			</if>
+			<if test="days91 != null">
+				DAYS_91,
+			</if>
+			<if test="utiliztn != null">
+				UTILIZTN,
+			</if>
+			<if test="changedBy != null">
+				CHANGED_BY,
+			</if>
+			<if test="lastChangedOn != null">
+				LAST_CHANGED_ON,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="documentStatus != null">
+				#{documentStatus,jdbcType=VARCHAR},
+			</if>
+			<if test="creditAnalyst != null">
+				#{creditAnalyst,jdbcType=VARCHAR},
+			</if>
+			<if test="createdOn != null">
+				#{createdOn,jdbcType=VARCHAR},
+			</if>
+			<if test="caseId != null">
+				#{caseId,jdbcType=VARCHAR},
+			</if>
+			<if test="documentNumber != null">
+				#{documentNumber,jdbcType=VARCHAR},
+			</if>
+			<if test="partner != null">
+				#{partner,jdbcType=VARCHAR},
+			</if>
+			<if test="description != null">
+				#{description,jdbcType=VARCHAR},
+			</if>
+			<if test="externalRefer != null">
+				#{externalRefer,jdbcType=VARCHAR},
+			</if>
+			<if test="totalAmt != null">
+				#{totalAmt,jdbcType=VARCHAR},
+			</if>
+			<if test="payt != null">
+				#{payt,jdbcType=VARCHAR},
+			</if>
+			<if test="riskClass != null">
+				#{riskClass,jdbcType=VARCHAR},
+			</if>
+			<if test="crExpos != null">
+				#{crExpos,jdbcType=VARCHAR},
+			</if>
+			<if test="limit != null">
+				#{limit,jdbcType=VARCHAR},
+			</if>
+			<if test="days030 != null">
+				#{days030,jdbcType=VARCHAR},
+			</if>
+			<if test="days3160 != null">
+				#{days3160,jdbcType=VARCHAR},
+			</if>
+			<if test="days6190 != null">
+				#{days6190,jdbcType=VARCHAR},
+			</if>
+			<if test="days91 != null">
+				#{days91,jdbcType=VARCHAR},
+			</if>
+			<if test="utiliztn != null">
+				#{utiliztn,jdbcType=VARCHAR},
+			</if>
+			<if test="changedBy != null">
+				#{changedBy,jdbcType=VARCHAR},
+			</if>
+			<if test="lastChangedOn != null">
+				#{lastChangedOn,jdbcType=VARCHAR},
+			</if>
+		</trim>
+	</insert>
+	<update id="saveOrUpdateData" parameterType="java.lang.String">
+		${sql}
+	</update>
+
+	<select id="selectData" parameterType="java.lang.String"
+		resultType="java.util.LinkedHashMap">
+		${sql}
+	</select>
+</mapper>
