@@ -21,7 +21,6 @@
     <!--打war包配置结束-->
 
 
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -225,21 +224,21 @@
                     <include>**/*.xml</include>
                 </includes>
             </resource>
-            <!--外部配置文件 打war包时注释掉此代码-->
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*</include>
-                </includes>
-            </resource>
-            <!--外部配置文件打war包时添加此配置-->
+            <!--外部配置文件打war包时注释掉此代码-->
             <!--<resource>-->
             <!--<directory>src/main/resources</directory>-->
-            <!--<excludes>-->
-            <!--<exclude>**/*.properties</exclude>-->
-            <!--<exclude>**/*.yml</exclude>-->
-            <!--</excludes>-->
+            <!--<includes>-->
+            <!--<include>**/*</include>-->
+            <!--</includes>-->
             <!--</resource>-->
+            <!--外部配置文件打war包时添加此配置-->
+            <resource>
+                <directory>src/main/resources</directory>
+                <excludes>
+                    <exclude>**/*.properties</exclude>
+                    <exclude>**/*.yml</exclude>
+                </excludes>
+            </resource>
         </resources>
 
     </build>

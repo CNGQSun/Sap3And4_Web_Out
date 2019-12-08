@@ -17,8 +17,8 @@
     <button style="background: #2aabd2" id="button" onclick="run()">run</button>
 </div>
 
-<!--<script th:src="@{../sap/js/jquery.min.js}" type="text/javascript"></script>-->
-<script th:src="@{../js/jquery.min.js}" type="text/javascript"></script>
+<script th:src="@{../sap/js/jquery.min.js}" type="text/javascript"></script>
+<!--<script th:src="@{../js/jquery.min.js}" type="text/javascript"></script>-->
 
 <script>
     function run() {
@@ -26,8 +26,8 @@
         document.getElementById("button").style.background="red";
         $("#button").text("running");
         alert("触发成功，程序正在运行，请点击'确定'继续");
-        // $.get("../sap/run", function (result) {
-            $.get("../run", function (result) {
+        $.get("../sap/run", function (result) {
+            // $.get("../run", function (result) {
             var msg=result.msg;
             if (result.code === 200) {
                 $("#button").text("run");
